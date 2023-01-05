@@ -1,89 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
-    --primary-color:#a3e635;
-    --gray-color:#52525b;
+
+:root {
+    --primary-color: #a3e635;
+    --gray-color: #52525b;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
 /** container **/
-.container{
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 /** links **/
 
-.link{
+.link {
     text-decoration: none;
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;   
+    color: white;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color) ;
+    border: 1px solid var(--primary-color);
 }
 
 /** lists **/
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
-    padding:0rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 /**navigation**/
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     padding: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.nav-brand{
+.nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
-.link-active{
+
+.link-active {
     font-weight: bold;
 }
 
 /**hero**/
 
-.hero{
-    padding:2rem;
+.hero {
+    padding: 2rem;
 }
-.hero .hero-img{
-    margin:auto;
+
+.hero .hero-img {
+    margin: auto;
     display: block;
     max-width: 350px;
 }
 
-.hero .hero-heading{
+.hero .hero-heading {
     padding-top: 1rem;
     color: var(--gray-color);
+}
+
+/**sections**/
+.section h1{
+    text-align: center;
+    padding:2rem;
 }
