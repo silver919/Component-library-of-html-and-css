@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #a3e635;
-    --gray-color: #52525b;
+    --gray-color: #cbd5e1;
 }
 
 body {
@@ -92,7 +92,29 @@ body {
 }
 
 /**sections**/
+.section{
+    padding:2rem;
+}
+
 .section h1{
     text-align: center;
-    padding:2rem;
+}
+
+.ow{
+    background-color: var(--gray-color);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
