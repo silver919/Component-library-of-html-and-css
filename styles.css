@@ -3,6 +3,7 @@
 :root {
     --primary-color: #a3e635;
     --gray-color: #cbd5e1;
+    --gray-color2:#4b5563;
 }
 
 body {
@@ -88,7 +89,8 @@ body {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--gray-color);
+    color: var(--gray-color2);
+    text-align: center;
 }
 
 /**sections**/
