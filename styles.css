@@ -125,3 +125,8 @@ body {
     font-weight: bold;
     font-size:large;
 }
+
+/** spaces **/
+.space-pad{
+    padding-bottom: 2rem;
+}
